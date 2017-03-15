@@ -1,0 +1,12 @@
+{
+  "name": "eslint-config-hx",
+  "private": true,
+  "version": "1.0.0",
+  "main": "eslint.json",
+  "dependencies": {
+    "eslint-config-standard": "7"
+  },
+  "repository": "haoxins/eslint-config",
+  "author": "haoxin",
+  "license": "MIT"
+}
