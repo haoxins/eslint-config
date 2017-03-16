@@ -2,6 +2,15 @@
   "name": "test",
   "private": true,
   "scripts": {
-    "lint": ""
+    "lint-incorrect": "eslint incorrect.js",
+    "lint-correct": "eslint correct.js"
+  },
+  "devDependencies": {
+    "eslint-config-ok": "github:haoxins/eslint-config"
+  },
+  "eslintConfig": {
+    "extends": [
+      "ok"
+    ]
   }
 }

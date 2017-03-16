@@ -1,10 +1,13 @@
 {
-  "name": "eslint-config-hx",
+  "name": "eslint-config-ok",
   "private": true,
   "version": "1.0.0",
   "main": "eslint.json",
   "dependencies": {
-    "eslint-config-standard": "7"
+    "eslint": "3",
+    "eslint-config-standard": "7",
+    "eslint-plugin-promise": "3",
+    "eslint-plugin-standard": "2"
   },
   "repository": "haoxins/eslint-config",
   "author": "haoxin",
