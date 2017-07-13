@@ -1,18 +1,18 @@
 {
   "name": "eslint-config-ok",
   "private": true,
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "eslint.json",
   "dependencies": {
-    "babel-eslint": "7",
-    "eslint": "3",
-    "eslint-config-standard": "7",
-    "eslint-config-standard-react": "4",
-    "eslint-plugin-import": "2",
-    "eslint-plugin-node": "4",
-    "eslint-plugin-promise": "3",
-    "eslint-plugin-standard": "2",
-    "eslint-plugin-vue": "2"
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.2.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^2.1.0"
   },
   "repository": "haoxins/eslint-config",
   "author": "haoxin",
