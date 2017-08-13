@@ -16,6 +16,10 @@
     "vue"
   ],
   "rules": {
-    "space-before-function-paren": ["error", "never"]
+    "space-before-function-paren": ["error", {
+      "asyncArrow": "always",
+      "anonymous": "never",
+      "named": "never"
+    }]
   }
 }

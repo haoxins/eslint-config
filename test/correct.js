@@ -1,16 +1,18 @@
 
-function ok() {
+function ok() {}
 
+class Ok {
+  hi() {}
 }
+
+const a = async () => {}
+
+const b = async function() {}
 
 ok()
 
-class Ok {
-  hi() {
-
-  }
-}
-
 const o = new Ok()
-
 o.hi()
+
+a()
+b()
